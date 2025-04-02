@@ -8,3 +8,9 @@ valores inteiros de li e lf devem ser informados pelo usuário e não pertencem 
 intervalo, ou seja, intervalo aberto
 
 """
+
+li = int(input("Digite o limite inicial: "))
+lf = int(input("Digite o limite final: "))
+
+for X in range(li + 1, lf):
+    print(X)

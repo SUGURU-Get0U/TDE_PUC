@@ -20,7 +20,7 @@ while c1 < 10:
     c1 += 1
     s += n
     av = s / c1
-    print("The sum is,",s," and the arithmetic mean is, ",av)
+    print("The sum is,", s, " and the arithmetic mean is, ", av)
 
 
 """
@@ -42,6 +42,5 @@ print("a soma dos numeros eh: ", soma)
 print("a media dos numeros eh: ",media)
 
 """
-
 
 
