@@ -11,28 +11,31 @@ d) a amplitude amostral considerando todos os números lidos (diferença entre o
 
 """
 
-SomaTotal = 0
+amlpitude = []
+
 
 Limite = int(input("Digite o limite dos números a serem contados: "))
 contPAR = 0
 contImpar = 0
 
-entDados = int(input("Digite um número: "))
 
-contNum = Limite
+contNum = 1
 
-while contNum >= Limite:
+while contNum <= Limite:
     entDados = int(input("Digite um número: "))
-    SomaTotal += entDados
-    if
+    amlpitude.append(entDados)
+    contNum += 1
+    amlpitude = sorted(amlpitude)
+    if entDados % 2 == 0:
         contPAR += entDados
-
     else:
         contImpar += entDados
 
-print("A soma total dos números é: ", SomaTotal)
+
+print("A soma total dos números é: ", sum(amlpitude))
 print("A soma dos Pares é: ", contPAR)
 print("A soma dos Impares é: ", contImpar)
+print("a amplitude amostral desta lista eh: ", amlpitude[-1] - amlpitude[0])
 
 
 
