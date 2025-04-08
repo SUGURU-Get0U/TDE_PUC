@@ -11,17 +11,31 @@ d) a amplitude amostral considerando todos os números lidos (diferença entre o
 
 """
 
-numKey = []
+SomaTotal = 0
 
-contNumeros = int(input("digite a quantidade de numeros inteiros a serem adicionados: "))
+Limite = int(input("Digite o limite dos números a serem contados: "))
+contPAR = 0
+contImpar = 0
 
-quantLeituras = 0
+entDados = int(input("Digite um número: "))
 
-while quantLeituras < contNumeros:
-    EntDados = int(input("Digite os números para leitura: "))
-    quantLeituras += 1
+contNum = Limite
+
+while contNum >= Limite:
+    entDados = int(input("Digite um número: "))
+    SomaTotal += entDados
+    if
+        contPAR += entDados
+
+    else:
+        contImpar += entDados
+
+print("A soma total dos números é: ", SomaTotal)
+print("A soma dos Pares é: ", contPAR)
+print("A soma dos Impares é: ", contImpar)
 
 
-numeros.append(numKey)
 
-soma = sum(numKey)
+
+
+
