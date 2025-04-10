@@ -14,16 +14,13 @@ import random
 from random import randrange
 
 QuantPessoas = int(input("Digite o numero de pessoas: "))
-soma = []
+soma = 0
 
 for idade in range(QuantPessoas):
-    idade = randrange(15,70)
-    print(idade, end= ' ')
-    soma.append(idade)
-    soma = sum(idade)
-    media = soma / QuantPessoas
+    idade = int(input("Digite a idade: "))
+    soma += idade
 
-print(media)
+media = soma / QuantPessoas
 
 if media < 25:
     print("sala full of calouros")
