@@ -23,7 +23,7 @@ for lines in range(len(m)):
             except ValueError:
                 print("Erro")
 
-print("O titan Original é: ")
+print("A matriz original é: ")
 for rows in m:
     print(m)
 
